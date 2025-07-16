@@ -1,0 +1,66 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body.bg {
+ background: linear-gradient(to right,#f4e2d8, #ba5370);
+ font-family: 'Poppins', sana-serif;
+ padding: 40px 0;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ min-height: 100vh;
+ overflow-y: auto;
+}
+.form-container {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+input, select, textarea, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+button {
+  background-color: #ba5370;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #a4315c;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.password-field {
+  position: relative;
+}
+.toggle-eye {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+label {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-top: 8px;
+}
+.skills label,
+.gender-section label {
+  margin-right: 10px;
+  font-weight: normal;
+  font-size: 13px;
+}
