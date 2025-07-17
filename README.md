@@ -23,5 +23,5 @@ This is a responsive and interactive web application built using *HTML, CSS, and
 
 ## 🔗 Live Project
 
-(💡 Will be updated after GitHub Pages setup)
+Live Demo:- https://gahnavishnani.github.io/registration-login-dashboard/register.html
 
